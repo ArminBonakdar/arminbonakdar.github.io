@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armin Bonakdar - Social Media</title>
+    <style>
+        /* Add your custom styles here */
+        body {
+            font-family: 'Arial', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #132f75;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        header img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        header .text {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header .logos {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        header h1 {
+            margin: 5px 0;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+            margin-right: 10px;
+        }
+
+        header a img {
+            width: 30px;
+            height: auto;
+            margin-right: 5px;
+        }
+
+        header a.linkedin-logo img {
+            width: 60px;
+        }
+
+        nav {
+            background-color: #091f57;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            top: 250; /* Adjust this value based on the header height */
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        main {
+            padding: 100px 20px 20px; /* Adjust top padding based on the combined height of header and nav */
+        }
+
+        footer {
+            background-color: #091f57;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Styles for the project section */
+        #Projects {
+            margin-top: 20px;
+        }
+
+        .project {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px; /* Adjust the margin as needed */
+        }
+
+        .project-content {
+            flex: 1;
+        }
+
+        .image-container {
+            margin-top: 20px; /* Add margin to separate image from content */
+        }
+
+        .image-container img {
+            width: 500px; /* Adjust the width as needed */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="ProfilePic.jpg" alt="Armin Bonakdar's Profile Picture">
+        <div class="text">
+            <h1>Armin Bonakdar</h1>
+            <p>MSc in Mechanical Engineering, University of Alberta</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">About</a>
+        <a href="Projects.html">Academic Projects</a>
+        <a href="Info.html">Contact</a>
+    </nav>
+
+    <main>
+        <section id="Projects">
+            <h2>Projects</h2>
+    
+            <!-- Project 1 -->
+            <div class="project">
+                <div class="project-content">
+                    <h3>Fatigue Detection in Repetitive Manual Handling Tasks using Joint Angle Features: A
+                        Machine Learning Approach</h3>
+                    <p>Predicting fatigue in material handling tasks is crucial to prevent work-related injuries and enhance worker safety. 
+                        Fatigue affects movement coordination, which can be identified using inertial measurement units (IMUs) found in smart devices. 
+                        This study utilizes machine learning approaches to detect muscle fatigue by analyzing IMU recordings.</p>
+                </div>
+                <!-- Placeholder for images -->
+                <div class="image-container">
+                    <img src="test.png" alt="Project 1 Image 1">
+                </div>
+            </div>
+    
+            <!-- Horizontal Line -->
+            <hr>
+    
+            <!-- Project 2 -->
+            <div class="project">
+                <div class="project-content">
+                    <h3>Project 2 Title</h3>
+                    <p>Project 2 Abstract...</p>
+                </div>
+                <!-- Placeholder for images -->
+                <div class="image-container">
+                    <img src="test.png" alt="Project 2 Image 1">
+                </div>
+            </div>
+        </section>
+    
+        <!-- Other sections can be added as needed -->
+    
+        <h2>Website undergoing maintenance. Please check back shortly!</h2>
+        <p></p>
+    </main>
+
+    <footer>
+        &copy; Armin Bonakdar
+    </footer>
+
+</body>
+</html>
